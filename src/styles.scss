@@ -1,3 +1,36 @@
-#app-container {
-  border: 1px solid black;
+/*body:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 100px;
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 10px solid #4285F4;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  margin-left: -20px;
+  margin-top: -20px;
+  border-radius: 100%;
+  animation: spin 1.5s linear infinite;
+  z-index: 1000;
+  transition: opacity .3s ease;
+  opacity: 1;
 }
+body.ready:before {
+  opacity: 0;
+  pointer-events: none;
+}
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+
+body:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255,255,255,.3);
+  transition: all ease .3s;
+  z-index: 999;
+}*/
