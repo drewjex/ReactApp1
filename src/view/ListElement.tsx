@@ -12,7 +12,7 @@ export class ListElement extends React.Component<IProps> {
 
   public render() {
     return (
-      <li><h2>{ this.props.title }</h2></li>
+      <li><h3>{ this.props.title }</h3></li>
     );
   }
 }

@@ -30,8 +30,8 @@ export class App extends React.Component {
   public render() {
     return (
       <div ref='main'>
-        { app.counter }
-        <view.Container listelements = { app.list } />
+        <view.Header />
+        <view.ListContainer listelements = { app.list } />
       </div>
     );
   }
